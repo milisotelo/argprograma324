@@ -113,6 +113,68 @@ body {
     height: 30vh;
 }
 
+
+
+
+
+.proyecto-imagen {
+    position: relative;
+    /*width: 100%;*/
+}
+
+.proyecto-img {
+    display: block;
+    width: 100%;
+}
+
+.proyecto-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.proyecto-overlay > * {
+    transform: translateY(-20px);
+    transition: transform 0.25s;
+}
+
+.proyecto-overlay:hover {
+    opacity: 1;
+}
+
+.proyecto-overlay:hover > * {
+    transform: translateY(0);
+
+}
+
+.proyecto-iconos {
+    font-size: 8vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CONTACTO */
 
 
