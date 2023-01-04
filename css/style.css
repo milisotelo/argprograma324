@@ -154,20 +154,11 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CONTACTO */
+.imagen-contacto>img {
+    width: 25vw;
+    height: 25vh;
+}
 
 
 
