@@ -25,6 +25,12 @@ header {
 .bg-light {
     --bs-bg-opacity: 0;
 }
+
+body {
+    background-color: rgb(19, 15, 54)  ;
+}
+
+
 /* INDEX */
 .titulo {
     width: 100%;
@@ -40,23 +46,40 @@ header {
 .titulo-index, .subtitulo-index {
     /*font-size: 11vh;*/
 
-    
 }
 
 
 /* ACERCA DE */
 
+.titulo-pagina {
+    text-align: center;
+}
+
+
 
 .card {
-    width: 30rem;
-    margin: auto;
+    width: 60rem;
+    margin: 8% auto;
     padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: coral;
+}
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card>img {
+    width: 25vw;
+    
+}
+
+.card-text {
+    text-align: justify;
 }
 
 
