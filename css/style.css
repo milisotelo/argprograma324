@@ -22,12 +22,15 @@ header {
 }
 
 
-.bg-light {
+header>.bg-light {
     --bs-bg-opacity: 0;
+    /*background-color: rgb(15, 123, 138);*/
 }
 
+    
+
 body {
-    background-color: rgb(19, 15, 54)  ;
+    background-color: rgb(43, 39, 88)  ;
 }
 
 
@@ -85,10 +88,35 @@ body {
 
 /* PORTFOLIO */
 
+.lista-de-proyectos {
+
+}
+
+.fila {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    align-items: center;
+    justify-items: center;
+}
 
 
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto>img {
+    width: 30vw;
+    height: 30vh;
+}
 
 /* CONTACTO */
+
+
+
 
 
 
