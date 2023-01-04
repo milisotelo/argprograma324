@@ -54,12 +54,6 @@ body {
 
 /* ACERCA DE */
 
-.titulo-pagina {
-    text-align: center;
-    color: white;
-
-}
-
 .card {
     width: 60rem;
     margin: 8% auto;
@@ -88,16 +82,17 @@ body {
 
 /* PORTFOLIO */
 
-.lista-de-proyectos {
-
-}
 
 .fila {
-    height: 60vh;
+    height: 45vh;
     display: grid;
     grid-template-columns: repeat(3, calc(100%/3));
     align-items: center;
+    justify-content: center;
     justify-items: center;
+    margin: 0;
+    padding: 0;
+    
 }
 
 
@@ -108,18 +103,14 @@ body {
     align-items: center;
 }
 
-.proyecto>img {
+.proyecto-imagen>img {
     width: 30vw;
     height: 30vh;
 }
 
-
-
-
-
 .proyecto-imagen {
     position: relative;
-    /*width: 100%;*/
+    
 }
 
 .proyecto-img {
@@ -157,8 +148,9 @@ body {
 
 }
 
+
 .proyecto-iconos {
-    font-size: 8vw;
+    font-size: 7.5vw;
 }
 
 
