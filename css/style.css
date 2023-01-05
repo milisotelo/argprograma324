@@ -10,6 +10,7 @@
     --color3: #000000; 
     --color4: #FFA69E;
 
+
 }
 
 
@@ -212,17 +213,38 @@ header>.bg-light {
     border-radius: 2%;
 }
 
+.accordion {
+    width: 45vw; 
+    --bs-accordion-active-color: var(--color1);
+    --bs-accordion-active-bg: var(--color1);
+
+   
+}
+.accordion-button.collapsed {
+    background-color: var(--color1);
+}
+
+.accordion-button {
+    color: var(--color1);
+
+}
+
+
 .accordion-body {
     font-size: 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
-.accordion {
-    width: 45vw;
+.accordion-body>a {
+    color: var(--color1);
 }
 
+.accordion-body>a:hover {
+    color: var(--color4);
+}
 
 
 
