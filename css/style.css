@@ -173,9 +173,11 @@ body {
     height: 35vh;
 }
 
-.accordion {
-    
-    
+.accordion-body {
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
