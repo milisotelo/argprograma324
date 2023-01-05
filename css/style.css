@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+/*:root {
+    --color1: ;
+}
+*/
+
+/*
+:root {
+    --colorBordo: rgb(141, 10, 10);
+    --colorAzul: rgb(1, 21, 72);
+    --colorRojo: rgb(141, 60, 60);
+    --fuenteCuerpo: 'Ubuntu', sans-serif;
+    --fuenteTitulo: 'Lobster', sans-serif;
+}
+
+body {
+    background-color: var(--colorRojo);
+}
+
+*/
+
+
+body {
+    background: url(/img/fondo1.jpg) center center / cover no-repeat fixed;
+    
+}
 
 /* HEADER */
 header {
@@ -25,12 +50,6 @@ header {
 header>.bg-light {
     --bs-bg-opacity: 0;
     /*background-color: rgb(15, 123, 138);*/
-}
-
-    
-
-body {
-    background-color: rgb(43, 39, 88)  ;
 }
 
 
@@ -165,9 +184,7 @@ body {
     justify-items: center;
     
 }
-.imagen-contacto {
 
-}
 .imagen-contacto>img {
     width: 35vw;
     height: 35vh;
@@ -180,7 +197,9 @@ body {
     justify-content: center;
 }
 
-
+.accordion {
+    width: 45vw;
+}
 
 
 
