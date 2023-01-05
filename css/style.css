@@ -155,9 +155,27 @@ body {
 
 
 /* CONTACTO */
+
+.contacto {
+    height: 65vh;
+    display: grid;
+    grid-template-columns: repeat(2, calc(100%/2));
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.imagen-contacto {
+
+}
 .imagen-contacto>img {
-    width: 25vw;
-    height: 25vh;
+    width: 35vw;
+    height: 35vh;
+}
+
+.accordion {
+    
+    
 }
 
 
