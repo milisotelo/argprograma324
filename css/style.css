@@ -9,16 +9,19 @@
     --color2: #ffffff;
     --color3: #000000; 
     --color4: #FFA69E;
-
+    --fuente1: 'Amaranth', sans-serif;
+    --fuente2: 'Dosis', sans-serif; 
+    
 
 }
 
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/fondo1.jpg) center center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/fondo1.jpg) center center / cover no-repeat fixed;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 /* HEADER */
@@ -28,6 +31,7 @@ header {
     justify-content: center;
     background-color: var(--color4);
     font-size: 2vw;
+    font-family: var(--fuente1);
     
 }
 
@@ -55,34 +59,43 @@ header>.bg-light {
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-family: var(--fuente1);
 
 }
 
 .titulo-index {
     color: var(--color1);
+    font-size: 6vw;
 
 }
 
 .subtitulo-index {
     color: var(--color4);
+    font-size: 3vw;
 }
 
 .titulo-pagina {
     text-align: center;
     color: var(--color1);
+    font-family: var(--fuente1);
+    margin-top: 4%;
+    font-size: 3vw;
 }
+
+
 
 /* ACERCA DE */
 
 .card {
     width: 60rem;
-    margin: 8% auto;
+    margin: 4% auto;
     padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border: 0.6vw groove var(--color1);
+    font-family: var(--fuente2);
     
 }
 
@@ -137,6 +150,7 @@ header>.bg-light {
     justify-content: center;
     align-items: center;
     color: var(--color1);
+    font-family: var(--fuente2);
 }
 
 .proyecto-imagen>img {
@@ -215,9 +229,10 @@ header>.bg-light {
 
 .accordion {
     width: 45vw; 
-    --bs-accordion-active-color: var(--color1);
-    --bs-accordion-active-bg: var(--color1);
-
+    --bs-accordion-active-color: var(--color3);
+    --bs-accordion-active-bg: var(--color4);
+    font-family: var(--fuente2);
+    
    
 }
 .accordion-button.collapsed {
@@ -225,7 +240,7 @@ header>.bg-light {
 }
 
 .accordion-button {
-    color: var(--color1);
+    color: var(--color3);
 
 }
 
@@ -256,4 +271,5 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+    font-family: var(--fuente1);
 }
